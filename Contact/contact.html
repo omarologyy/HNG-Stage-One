@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Umar Sulaiman</title>
+    <link rel="stylesheet" href="contact.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js" defer></script>
+  </head>
+
+  <body>
+    <nav>
+      <a href="../index.html" style="text-decoration: none">
+        <img
+          src="../icon/home-user.svg"
+          alt="Home"
+          style="
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+          "
+          onmouseover="this.style.transform='scale(1.1)'"
+          onmouseout="this.style.transform='scale(1)'"
+        />
+      </a>
+
+      <ul>
+        <li>
+          <a
+            href="/About/about.html"
+            style="
+              color: #4338ca;
+              font-weight: 600;
+              text-decoration: none;
+              font-size: 1rem;
+              transition: color 0.3s ease;
+            "
+            onmouseover="this.style.color='#6366f1'"
+            onmouseout="this.style.color='#4338ca'"
+            >About</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-container">
+      <section class="contact-info">
+        <h2>Let’s Connect</h2>
+        <p>
+          I’d love to hear from you! Whether it’s a project idea, collaboration,
+          or just a friendly hello, feel free to reach out and I’ll get back to
+          you soon.
+        </p>
+
+        <nav class="info-box">
+          <p class="contact">
+            <i class="fas fa-envelope"></i>
+            <strong>Email:</strong> akoredeumar8@gmail.com
+          </p>
+          <p class="contact">
+            <i class="fas fa-phone"></i><strong>Phone number:</strong> +234 708
+            305 6840
+          </p>
+          <p class="contact">
+            <i class="fas fa-map-marker-alt"></i
+            ><strong>Location:</strong> Lagos, Nigeria
+          </p>
+        </nav>
+      </section>
+
+      <!-- The actual snackbar -->
+      <p id="snackbar">Thank you! We would get back to you soon.</p>
+      <!-- Contact Form -->
+      <section class="contact-form">
+        <h3>Send a Message</h3>
+        <form id="contactForm">
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="John Doe" required />
+          <span id="name-error" class="error-message" aria-live="polite"></span>
+
+          <label for="email">Email</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="name@example.com"
+            required
+          />
+
+          <label for="subject">Subject</label>
+
+          <input id="subject" type="text" placeholder="Enquiry" required />
+
+          <label for="message">Message me</label>
+
+          <textarea
+            id="message"
+            placeholder="I'd like to ask about..."
+            required
+          ></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        © 2025 Umar Sulaiman |
+        <a href="/About/about.html">About</a> |
+        <a
+          href="https://www.linkedin.com/in/umar-sulaiman-a91a43175"
+          class="social-link linkedin"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Linkedin
+        </a>
+        |
+        <a href="https://github.com/omarologyy"> Github </a>
+        |
+        <a href="https://x.com/clingparin?t=86RMq7LQpmUidlAyGOZzA&s=08"
+          >Twitter</a
+        >
+        |
+        <a
+          href="mailto:akoredeumar8@gmail.com?subject=Contact"
+          class="social-link email"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Email</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

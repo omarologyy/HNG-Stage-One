@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNG Stage One</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <article class="profile-card" data-testid="test-profile-card">
+      <figure class="profile-image" data-testid="test-user-avatar">
+        <img
+          src="images/pic.jpg"
+          alt="Profile Picture"
+          id="profileImg"
+          data-testid="test-user-image"
+        />
+      </figure>
+
+      <h2 class="profile-name" id="userName" data-testid="test-user-name">
+        Umar Sulaiman
+      </h2>
+      <p class="expertise" data-testid="test-user-expertise">
+        Frontend Engineer
+      </p>
+
+      <p class="dynamic-time" id="dynamicTime" data-testid="test-user-time">
+        Loading...
+      </p>
+      <ul class="alink">
+        <li><a href="./About/about.html">About page</a></li>
+        <li><a href="./Contact/contact.html">Contact page</a></li>
+      </ul>
+
+      <p class="profile-bio" id="userBio" data-testid="test-user-bio">
+        I am a passionate Frontend Developer with experience building responsive
+        and user-friendly web applications. Skilled in HTML, CSS, JavaScript,
+        and modern frameworks like React and Next.js, I enjoy transforming ideas
+        into functional, visually appealing interfaces.
+      </p>
+
+      <section class="dislikes" data-testid="test-user-dislikes">
+        <h3 data-testid="test-user-dislike">Dislikes:</h3>
+        <ul data-testid="test-user-dislikings-list">
+          <li>Embarrassment</li>
+          <li>&</li>
+          <li>Cheating</li>
+        </ul>
+      </section>
+      <section class="hobbies" data-testid="test-user-hobbies">
+        <h3 data-testid="test-user-hobbies">Hobbies:</h3>
+        <ul data-testid="test-user-hobbies-list">
+          <li>Watching anime</li>
+          <li>&</li>
+          <li>Playing football</li>
+        </ul>
+      </section>
+      <address
+        class="profile-location"
+        id="userLocation"
+        data-testid="test-user-location"
+      >
+        <i class="fas fa-map-marker-alt location-icon"></i>
+        <p>Lagos, Nigeria.</p>
+      </address>
+
+      <nav class="social-links" data-testid="test-user-social-links">
+        <a
+          href="https://www.linkedin.com/in/umar-sulaiman-a91a43175"
+          class="social-link linkedin"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="test-user-social-linkedin"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a
+          href="https://github.com/omarologyy"
+          class="social-link github"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="test-user-social-github"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://x.com/clingparin?t=86RMq7LQpmUidlAyGOZzA&s=08"
+          class="social-link twitter"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="test-user-social-twitter"
+        >
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a
+          href="mailto:akoredeumar8@gmail.com?subject=Contact"
+          class="social-link email"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="test-user-social-email"
+        >
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </nav>
+    </article>
+  </body>
+</html>
