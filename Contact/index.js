@@ -113,11 +113,7 @@ form.addEventListener("submit", (event) => {
     hasError = true;
   }
 
-  // You would add checks for subject and message here too
-
   if (hasError) {
-    // You can still use your snackbar for a general "Form has errors" message if you like
-    // showSnackbar("⚠️ Please fix the errors above.", "error");
     return;
   }
 

@@ -27,7 +27,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px; /* spacing between icons */
+  gap: 20px;
   margin: 20px 0;
 }
 

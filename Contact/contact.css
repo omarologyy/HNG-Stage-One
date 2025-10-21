@@ -215,13 +215,13 @@ button:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(99, 102, 241, 0.3);
 }
-/* Add this to your contact.css */
+
 .error-message {
-  color: #e63946; /* Your current error color */
+  color: #e63946;
   font-size: 0.9rem;
-  margin-top: -10px; /* Pull it closer to the input */
+  margin-top: -10px;
   margin-bottom: 5px;
-  display: none; /* Hide by default */
+  display: none;
 }
 
 /* A class to show the error message */
