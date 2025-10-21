@@ -23,6 +23,29 @@ header p {
   font-size: 1rem;
   opacity: 0.9;
 }
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* spacing between icons */
+  margin: 20px 0;
+}
+
+nav a {
+  display: inline-block;
+}
+
+nav img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+nav img:hover {
+  transform: scale(1.1);
+}
 
 .container {
   max-width: 1000px;
